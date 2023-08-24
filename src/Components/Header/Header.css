@@ -1,0 +1,228 @@
+.pre-header{
+    display: flex;
+    justify-content : space-between;
+    background-color : #0B0D26;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-envelop{
+    color : #FA4729;
+    margin-left: 20px;
+}
+.fa-map-marker-alt{
+    color: #FA4729;
+}
+.horizontal-line{
+    border-left: 1px solid #fff;
+    height: 10px;
+    display: inline-block;
+}
+.pre-header-icons{
+    display: inline-block;
+    color: #181D4E;
+    font-weight: 600;
+}
+.fa-skype{
+    margin-right: 20px;
+    color: #8D9CC5;
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter{
+    color: #8D9CC5;
+}
+.header-card{
+    border-radius: 0 !important;
+    position: relative;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex !important;
+    justify-content : space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.fa-search{
+    font-size: 26px;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.fa-bars{
+    font-size: 26px;
+    cursor: pointer;
+}
+.header-info{
+    background-color: #0B0D26; 
+    max-width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.close-btn{
+    height: 25px;
+    width: 25px;
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: 20px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-times{
+    color: #fff;
+    cursor: pointer;
+}
+.toggle-img-block{
+    margin-left: auto;
+    margin-right: auto;
+}
+.toggle-about-section, .toggle-contact-section{
+    color: #8D9CC5;
+}
+.toggle-btn{
+    background: #FA4729 !important;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 18px 35px !important;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.toggle-btn:hover{
+    background-color: #181D4E !important;
+}
+.nav-tags-lg{
+    text-decoration: none;
+    color: #737373;
+}
+.nav-tags-lg:hover{
+    color: #FA4729;
+}
+.nav-tags-lg.active{
+    color: #FA4729;
+}
+.mobile-card{
+    display: flex;
+    align-items : center;
+    justify-content : space-between;
+    position: relative;
+}
+.nav-tabs-sm{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 20px !important;
+}
+.mobile-toggle{
+    background-color: #181D4E;
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    line-height: 38px;
+}
+.nav-tabs-sm.active{
+    color: #FA4729;
+    text-decoration: underline !important;
+}
+.fixed-header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-area{
+    width: 100%;
+    /* height: 150px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 150;
+}
+.search-section-1{
+    display: flex;
+    justify-content: space-between;
+}
+.search-close-arrow{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.top-search-content{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form-group{
+    position: relative;
+}
+.search-area-input{
+    position: relative;
+    display: block;
+    /* font-size: 24px; */
+    line-height: 25px;
+    color: #333333;
+    padding: 10px 14px;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.search-area-input:focus-visible{
+    outline: none !important;
+}
+.search-area-icon{
+    font-size: 16px;
+}
+.search-area-button{
+    position: absolute;
+    right: 10px;
+    top: 0%;
+    background: transparent !important;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+    color: #333333;
+    padding: 0;
+    background: none;
+    border: none;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+@media screen and (min-width : 500px){
+    .mobile-toggle{
+        width: 270px;
+        height: 270px;
+        line-height: 40px;
+    }
+}
+@media screen and  (max-width : 992px){
+    .back-to-top {
+        left: 90% !important;
+    }
+}
+
+.custom-modal-dialog {
+    max-height: calc(100vh - 100px);
+  }
+  
+  .search-modal .modal-content {
+    border: none; /* Optional: Remove border around modal */
+  }

@@ -1,0 +1,77 @@
+.project-section2-header{ 
+    font-size: 35px;
+    margin: 30px 0;
+    font-weight: 400;
+    color: #181D4E;
+}
+.project-section2-img{
+    width: 100%;
+}
+.project-section2-content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    color: #808080;
+    margin: 0;
+}
+.project-info-header{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #181D4E;
+}
+.project-infos{
+    margin: 15px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.project-sub-info{
+    float: right;
+}
+.project-card{
+    border-radius: 0 !important;
+    border: 1px solid #ddd !important;
+}
+.project-card-btn{
+    padding: 15px 18px !important;
+    font-size: 17px;
+    width: 60%;
+    margin: 20px 0;
+    background: #FA4729 !important;
+    color: #fff;
+    font-weight: 500;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.project-card-btn:hover{
+    background-color: #181D4E !important;
+}
+.project-overview-header{
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #181D4E;
+}
+.project-overview-content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    color: #808080;
+}
+.project-sec3-img{
+    width: 98%;
+}
+
+@media screen and (min-width : 992px){
+    .project-card{
+        margin-top: -45px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 785px){
+    .contact-card{
+        height: 290px !important;
+    }
+}

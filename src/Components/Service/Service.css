@@ -1,0 +1,85 @@
+.service-img {
+    width: 100%;
+    height: 250px;
+    transition: transform ease-in-out 0.7s;
+    transition-property: all;
+}
+
+.service-name {
+    font-size: 24px;
+    font-weight: 500;
+    /* margin: 15px 0 25px; */
+    color: #181D4E;
+}
+
+.service-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    color: #808080;
+}
+
+.service-card {
+    border-radius: 0 !important;
+    box-shadow: 0 3px 9px -2px #d0cece;
+}
+
+.service-card-line {
+    width: 84%;
+    height: 1px;
+    background-color: #dedede;
+    margin-left: 5%;
+}
+
+.service-arrow-right {
+    font-size: 18px;
+    color: #F35C27;
+}
+
+.service-img-block {
+    position: relative;
+}
+
+.service-icon-block {
+    width: 80px;
+    height: 80px;
+    background-color: #F35C27;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-icon {
+    width: 50px;
+    height: 50px;
+}
+.service-card:hover .service-icon-block {
+    transition: all 500ms linear;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    /* transition-delay: 0s; */
+    transition-property: all;
+    transition-delay: 0.1s;
+}
+.service-card-section{
+    background-color: #F9F9FB;
+}
+.service-card:hover{
+    .service-img{
+        transform: scale(1.01) rotate(2deg);
+        transition: all 2s ease-out;
+    }
+    .service-icon-block{
+        transform: rotateY(360deg) !important;
+    }
+}
+
+@media screen and (max-width : 767px){
+    .service-img{
+        height: auto;
+    }
+}
